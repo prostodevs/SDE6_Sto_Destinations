@@ -1,0 +1,58 @@
+#viewport {
+  border-collapse: separate;
+}
+
+#banner {
+  border-style: solid;
+  border-color: #6ff900;
+  border-width: thick;
+  background-color: #e9ecef;
+  margin: 10px;
+}
+
+#mainrow {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+#redbox {
+  border-style: solid;
+  border-color: #ed2805;
+  border-width: thick;
+  height: 700px;
+  width: 700px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#bluebox {
+  border-collapse: separate;
+  border-style: solid;
+  border-color: #053bff;
+  border-width: thick;
+  height: 700px;
+  width: 700px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+}
+
+#purplebox {
+  border-style: solid;
+  border-width: thick;
+  border-color: #ed48ff;
+  padding-left: 5%;
+  height: 10%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#yellowbox {
+  border-style: solid;
+  border-width: thick;
+  border-color: #fffa01;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 85%;
+}
