@@ -30,10 +30,45 @@
         </h4>
       </div>
       <div id="mainrow" class="row">
-        <div id="redbox"><h2></h2></div>
+        <div class="container" id="redbox">
+          <form>
+            <label for="dest">Destination Name</label>
+            <input
+              type="text"
+              id="dest"
+              name="destination"
+              placeholder="Enter the name of the destination"
+            />
+            <label for="location">Location</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Where is it located?"
+            />
+            <label for="photo">Photo</label>
+            <input
+              type="text"
+              id="photo"
+              name="placephotourl"
+              placeholder="Enter an image URL of the place"
+            />
+            <label for="desc">Description</label>
+            <input
+              type="text"
+              id="desc"
+              name="description"
+              placeholder="Where is it located?"
+            />
+            <button class="btn btn-primary" style="width: 100%">
+              Add to List
+            </button>
+          </form>
+        </div>
+
         <div id="bluebox">
           <div id="purplebox"><h3>Enter Destination Details</h3></div>
-          <div id="yellowbox"><h2></h2></div>
+          <div id="yellowbox"></div>
         </div>
       </div>
     </div>

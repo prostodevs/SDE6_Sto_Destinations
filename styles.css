@@ -24,6 +24,7 @@
   width: 700px;
   margin-left: 5%;
   margin-right: 5%;
+  padding-top: 10px;
 }
 #bluebox {
   border-collapse: separate;
@@ -55,4 +56,20 @@
   margin-left: 5px;
   margin-right: 5px;
   height: 85%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div.container {
+  border-radius: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
