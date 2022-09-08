@@ -31,13 +31,14 @@
       </div>
       <div id="mainrow" class="row">
         <div class="container" id="redbox">
-          <form>
+          <form id="user_input_form">
             <label for="dest">Destination Name</label>
             <input
               type="text"
               id="dest"
               name="destination"
               placeholder="Enter the name of the destination"
+              required
             />
             <label for="location">Location</label>
             <input
@@ -45,6 +46,7 @@
               id="location"
               name="location"
               placeholder="Where is it located?"
+              required
             />
             <label for="photo">Photo</label>
             <input
@@ -60,9 +62,10 @@
               name="description"
               placeholder="Where is it located?"
             />
-            <button class="btn btn-primary" style="width: 100%">
+            <!-- <button class="btn btn-primary" style="width: 100%">
               Add to List
-            </button>
+            </button> -->
+            <input type="submit" value="Add to List" style="width: 100%" />
           </form>
         </div>
 
@@ -77,5 +80,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
